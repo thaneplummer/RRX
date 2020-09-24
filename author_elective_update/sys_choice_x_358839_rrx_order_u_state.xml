@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_state" table="x_358839_rrx_order" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_state</element>
+            <name>x_358839_rrx_order</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>thane.plummer</sys_created_by>
+            <sys_created_on>2020-09-24 14:43:15</sys_created_on>
+            <sys_id>b17ced08db631010f5bdb0803996193e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_state</sys_name>
+            <sys_package display_value="RRX" source="x_358839_rrx">368a6184db631010f5bdb080399619f9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RRX">368a6184db631010f5bdb080399619f9</sys_scope>
+            <sys_update_name>sys_choice_x_358839_rrx_order_u_state</sys_update_name>
+            <sys_updated_by>thane.plummer</sys_updated_by>
+            <sys_updated_on>2020-09-24 14:43:15</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Open</label>
+            <language>en</language>
+            <name>x_358839_rrx_order</name>
+            <sequence>0</sequence>
+            <sys_created_by>thane.plummer</sys_created_by>
+            <sys_created_on>2020-09-24 14:43:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>797ced08db631010f5bdb0803996193d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>thane.plummer</sys_updated_by>
+            <sys_updated_on>2020-09-24 14:43:15</sys_updated_on>
+            <value>open</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Filled</label>
+            <language>en</language>
+            <name>x_358839_rrx_order</name>
+            <sequence>1</sequence>
+            <sys_created_by>thane.plummer</sys_created_by>
+            <sys_created_on>2020-09-24 14:43:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b97ced08db631010f5bdb0803996193e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>thane.plummer</sys_updated_by>
+            <sys_updated_on>2020-09-24 14:43:15</sys_updated_on>
+            <value>filled</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancelled</label>
+            <language>en</language>
+            <name>x_358839_rrx_order</name>
+            <sequence>2</sequence>
+            <sys_created_by>thane.plummer</sys_created_by>
+            <sys_created_on>2020-09-24 14:43:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>397ced08db631010f5bdb0803996193f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>thane.plummer</sys_updated_by>
+            <sys_updated_on>2020-09-24 14:43:15</sys_updated_on>
+            <value>cancelled</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

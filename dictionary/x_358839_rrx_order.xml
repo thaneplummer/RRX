@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Order" max_length="40" name="x_358839_rrx_order" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Quantity" max_length="40" name="quantity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="buy" label="Action" max_length="40" name="u_action" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Buy" sequence="0" value="buy"/>
+                <element inactive_on_update="false" label="Sell" sequence="1" value="sell"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Price" max_length="20" name="u_price" type="price"/>
+        <element attributes="encode_utf8=false" label="Security" max_length="32" name="u_security" reference="x_358839_rrx_security" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="open" label="State" max_length="40" name="u_state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="0" value="open"/>
+                <element inactive_on_update="false" label="Filled" sequence="1" value="filled"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="2" value="cancelled"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_security"/>
+        </index>
+    </element>
+</database>

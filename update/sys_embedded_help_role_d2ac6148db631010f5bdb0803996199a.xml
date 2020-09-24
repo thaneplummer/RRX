@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_358839_rrx.security_user" name="x_358839_rrx.security_user">deace1c4db631010f5bdb0803996199c</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>thane.plummer</sys_created_by>
+        <sys_created_on>2020-09-24 14:44:06</sys_created_on>
+        <sys_id>d2ac6148db631010f5bdb0803996199a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>deace1c4db631010f5bdb0803996199c</sys_name>
+        <sys_package display_value="RRX" source="x_358839_rrx">368a6184db631010f5bdb080399619f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RRX">368a6184db631010f5bdb080399619f9</sys_scope>
+        <sys_update_name>sys_embedded_help_role_d2ac6148db631010f5bdb0803996199a</sys_update_name>
+        <sys_updated_by>thane.plummer</sys_updated_by>
+        <sys_updated_on>2020-09-24 14:44:06</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="OrderBook" max_length="40" name="x_358839_rrx_orderbook" type="collection">
+        <element label="Bids" max_length="4000" name="bids" reference="x_358839_rrx_order" reference_qual="u_action=buy^EQ" reference_qual_condition="u_action=buy^EQ" type="glide_list"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Offers" max_length="4000" name="offers" reference="x_358839_rrx_order" reference_qual="u_action=sell^EQ" reference_qual_condition="u_action=sell^EQ" type="glide_list"/>
+        <element label="Security" max_length="32" name="u_security" reference="x_358839_rrx_security" type="reference"/>
+        <index name="index">
+            <element name="u_security"/>
+        </index>
+    </element>
+</database>
