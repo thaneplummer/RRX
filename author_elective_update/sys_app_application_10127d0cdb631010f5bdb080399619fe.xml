@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Transaction</name>
+        <order>100</order>
+        <roles>x_358839_rrx.transaction_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>thane.plummer</sys_created_by>
+        <sys_created_on>2020-09-24 15:07:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>10127d0cdb631010f5bdb080399619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Transaction</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RRX" source="x_358839_rrx">368a6184db631010f5bdb080399619f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RRX">368a6184db631010f5bdb080399619f9</sys_scope>
+        <sys_update_name>sys_app_application_10127d0cdb631010f5bdb080399619fe</sys_update_name>
+        <sys_updated_by>thane.plummer</sys_updated_by>
+        <sys_updated_on>2020-09-24 15:07:44</sys_updated_on>
+        <title>Transaction</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RRX">368a6184db631010f5bdb080399619f9</application>
+        <file_path/>
+        <instance_id>68c65b33dbccbb4042b321c405961909</instance_id>
+        <instance_name>dev74976</instance_name>
+        <name>sys_app_application_10127d0cdb631010f5bdb080399619fe</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Transaction</name><order>100</order><roles>x_358839_rrx.transaction_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>thane.plummer</sys_created_by><sys_created_on>2020-09-24 15:07:44</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>10127d0cdb631010f5bdb080399619fe</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Transaction</sys_name><sys_overrides/><sys_package display_value="RRX" source="x_358839_rrx">368a6184db631010f5bdb080399619f9</sys_package><sys_policy/><sys_scope display_value="RRX">368a6184db631010f5bdb080399619f9</sys_scope><sys_update_name>sys_app_application_10127d0cdb631010f5bdb080399619fe</sys_update_name><sys_updated_by>thane.plummer</sys_updated_by><sys_updated_on>2020-09-24 15:07:44</sys_updated_on><title>Transaction</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-1338276574</payload_hash>
+        <record_name>Transaction</record_name>
+        <reverted_from/>
+        <source>7a8a6184db631010f5bdb080399619fb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>thane.plummer</sys_created_by>
+        <sys_created_on>2020-09-24 15:07:44</sys_created_on>
+        <sys_id>dc127d0cdb631010f5bdb080399619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174c0a7ea2c0000001</sys_recorded_at>
+        <sys_updated_by>thane.plummer</sys_updated_by>
+        <sys_updated_on>2020-09-24 15:07:44</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>18127d0ce3631010a3671e237685d7ff</update_guid>
+        <update_guid_history>18127d0ce3631010a3671e237685d7ff:-1338276574</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Transaction">bce25beddb235010f5bdb080399619c4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>thane.plummer</sys_created_by>
+        <sys_created_on>2020-09-29 14:01:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>1bb82b3d134b450ab4a03a59c4f0c7e9</sys_id>
+        <sys_metadata>10127d0cdb631010f5bdb080399619fe</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Transaction</sys_name>
+        <sys_package display_value="RRX" source="x_358839_rrx">368a6184db631010f5bdb080399619f9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RRX">368a6184db631010f5bdb080399619f9</sys_scope>
+        <sys_scope_delete display_value="">69b5304e0e9d4aac8c3be58705ea7d90</sys_scope_delete>
+        <sys_update_name>sys_app_application_10127d0cdb631010f5bdb080399619fe</sys_update_name>
+        <sys_update_version display_value="sys_app_application_10127d0cdb631010f5bdb080399619fe">dc127d0cdb631010f5bdb080399619ff</sys_update_version>
+        <sys_updated_by>thane.plummer</sys_updated_by>
+        <sys_updated_on>2020-09-29 14:01:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

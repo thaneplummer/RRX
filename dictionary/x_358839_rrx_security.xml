@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Security" max_length="40" name="x_358839_rrx_security" type="collection">
+    <element label="Security" max_length="40" name="x_358839_rrx_security" sizeclass="0" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Name" max_length="255" name="u_name" type="string"/>
-        <element label="Symbol" max_length="40" name="u_symbol" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Security type" mandatory="true" max_length="40" name="u_security_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Stock" sequence="0" value="stock"/>
+                <element inactive_on_update="false" label="Bond" sequence="1" value="bond"/>
+                <element inactive_on_update="false" label="PPM" sequence="2" value="ppm"/>
+                <element inactive_on_update="false" label="Crypto" sequence="3" value="crypto"/>
+                <element inactive_on_update="false" label="CrowdFund" sequence="4" value="crowdfund"/>
+                <element inactive_on_update="false" label="FOREX" sequence="5" value="forex"/>
+                <element inactive_on_update="false" label="Futures" sequence="6" value="futures"/>
+                <element inactive_on_update="false" label="Option" sequence="7" value="option"/>
+            </choice>
+        </element>
+        <element display="true" label="Symbol" max_length="40" name="u_symbol" type="string"/>
     </element>
 </database>

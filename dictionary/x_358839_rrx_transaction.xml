@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Transaction" max_length="40" name="x_358839_rrx_transaction" type="collection">
+    <element label="Transaction" max_length="40" name="x_358839_rrx_transaction" sizeclass="0" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="omit_sys_original=true" label="Amount" max_length="20" name="u_amount" type="currency"/>
-        <element attributes="encode_utf8=false" label="Buyer" max_length="32" name="u_buyer" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Buyer" max_length="32" name="u_buyer" reference="x_358839_rrx_app_user" type="reference"/>
+        <element attributes="omit_sys_original=true" label="Commission" max_length="20" name="u_commission" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Net amount" max_length="20" name="u_net_amount" type="currency"/>
         <element default="1" label="Quantity" max_length="40" name="u_quantity" type="integer"/>
         <element attributes="encode_utf8=false" label="Security" max_length="32" name="u_security" reference="x_358839_rrx_security" type="reference"/>
-        <element attributes="encode_utf8=false" label="Seller" max_length="32" name="u_seller" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Seller" max_length="32" name="u_seller" reference="x_358839_rrx_app_user" type="reference"/>
         <index name="index">
             <element name="u_seller"/>
         </index>

@@ -22,7 +22,7 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>false</display>
+        <display>true</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
@@ -54,14 +54,14 @@
         <sys_created_by>thane.plummer</sys_created_by>
         <sys_created_on>2020-09-24 14:44:35</sys_created_on>
         <sys_id>37ace148db631010f5bdb08039961935</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Symbol</sys_name>
         <sys_package display_value="RRX" source="x_358839_rrx">368a6184db631010f5bdb080399619f9</sys_package>
         <sys_policy/>
         <sys_scope display_value="RRX">368a6184db631010f5bdb080399619f9</sys_scope>
         <sys_update_name>sys_dictionary_x_358839_rrx_security_u_symbol</sys_update_name>
         <sys_updated_by>thane.plummer</sys_updated_by>
-        <sys_updated_on>2020-09-24 14:44:35</sys_updated_on>
+        <sys_updated_on>2020-09-29 14:33:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

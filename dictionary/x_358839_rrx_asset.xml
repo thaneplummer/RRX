@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Asset" max_length="40" name="x_358839_rrx_asset" type="collection">
+    <element label="Asset" max_length="40" name="x_358839_rrx_asset" sizeclass="0" type="collection">
         <element choice="3" label="AssetType" max_length="40" name="u_assettype" type="string">
             <choice>
                 <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
@@ -8,9 +8,13 @@
                 <element inactive_on_update="false" label="Equity" value="equity"/>
             </choice>
         </element>
-        <element label="Instrument" max_length="32" name="u_instrument" reference="x_358839_rrx_security" type="reference"/>
+        <element display="true" label="Instrument" max_length="32" name="u_instrument" reference="x_358839_rrx_security" type="reference"/>
+        <element label="Owner" max_length="32" name="u_owner" reference="x_358839_rrx_app_user" type="reference"/>
         <element label="Quantity" max_length="40" name="u_quantity" type="integer"/>
         <index name="index">
+            <element name="u_owner"/>
+        </index>
+        <index name="index2">
             <element name="u_instrument"/>
         </index>
     </element>

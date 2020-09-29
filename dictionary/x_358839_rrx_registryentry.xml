@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="RegistryEntry" max_length="40" name="x_358839_rrx_registryentry" type="collection">
+    <element label="RegistryEntry" max_length="40" name="x_358839_rrx_registryentry" sizeclass="0" type="collection">
         <element label="Owner" max_length="32" name="u_owner" reference="sys_user" type="reference"/>
         <element label="PurchaseDate" max_length="40" name="u_purchasedate" type="glide_date_time"/>
         <element label="Quantity" max_length="40" name="u_quantity" type="integer"/>
-        <element label="Security" max_length="32" name="u_security" reference="x_358839_rrx_security" type="reference"/>
+        <element display="true" label="Security" max_length="32" name="u_security" reference="x_358839_rrx_security" type="reference"/>
         <index name="index">
             <element name="u_owner"/>
         </index>

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Order" max_length="40" name="x_358839_rrx_order" type="collection">
+    <element label="Order" max_length="40" name="x_358839_rrx_order" sizeclass="0" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Quantity" max_length="40" name="quantity" type="integer"/>
+        <element label="Account" max_length="32" name="u_account" reference="x_358839_rrx_account" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="buy" label="Action" max_length="40" name="u_action" type="string">
             <choice>
                 <element inactive_on_update="false" label="Buy" sequence="0" value="buy"/>
@@ -19,6 +20,9 @@
         </element>
         <index name="index">
             <element name="u_security"/>
+        </index>
+        <index name="index2">
+            <element name="u_account"/>
         </index>
     </element>
 </database>

@@ -1,72 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="14ab25c4db631010f5bdb0803996196f" sys_domain="global" table="x_358839_rrx_order" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_action</element>
+            <element>u_account</element>
             <position>0</position>
             <sys_created_by>thane.plummer</sys_created_by>
-            <sys_created_on>2020-09-24 14:49:14</sys_created_on>
-            <sys_id>69dded48db631010f5bdb08039961936</sys_id>
+            <sys_created_on>2020-09-29 14:50:26</sys_created_on>
+            <sys_id>2b0e97a9db635010f5bdb0803996190c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_358839_rrx_order" sys_domain="global" view="Default view">14ab25c4db631010f5bdb0803996196f</sys_ui_section>
             <sys_updated_by>thane.plummer</sys_updated_by>
-            <sys_updated_on>2020-09-24 14:49:14</sys_updated_on>
+            <sys_updated_on>2020-09-29 14:50:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_action</element>
+            <position>1</position>
+            <sys_created_by>thane.plummer</sys_created_by>
+            <sys_created_on>2020-09-29 14:50:26</sys_created_on>
+            <sys_id>af0e97a9db635010f5bdb0803996190c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_358839_rrx_order" sys_domain="global" view="Default view">14ab25c4db631010f5bdb0803996196f</sys_ui_section>
+            <sys_updated_by>thane.plummer</sys_updated_by>
+            <sys_updated_on>2020-09-29 14:50:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>quantity</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>thane.plummer</sys_created_by>
-            <sys_created_on>2020-09-24 14:49:14</sys_created_on>
-            <sys_id>e9dded48db631010f5bdb08039961936</sys_id>
+            <sys_created_on>2020-09-29 14:50:26</sys_created_on>
+            <sys_id>270e97a9db635010f5bdb0803996190d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_358839_rrx_order" sys_domain="global" view="Default view">14ab25c4db631010f5bdb0803996196f</sys_ui_section>
             <sys_updated_by>thane.plummer</sys_updated_by>
-            <sys_updated_on>2020-09-24 14:49:14</sys_updated_on>
+            <sys_updated_on>2020-09-29 14:50:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_price</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>thane.plummer</sys_created_by>
-            <sys_created_on>2020-09-24 14:49:14</sys_created_on>
-            <sys_id>6ddded48db631010f5bdb08039961936</sys_id>
+            <sys_created_on>2020-09-29 14:50:26</sys_created_on>
+            <sys_id>ab0e97a9db635010f5bdb0803996190d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_358839_rrx_order" sys_domain="global" view="Default view">14ab25c4db631010f5bdb0803996196f</sys_ui_section>
             <sys_updated_by>thane.plummer</sys_updated_by>
-            <sys_updated_on>2020-09-24 14:49:14</sys_updated_on>
+            <sys_updated_on>2020-09-29 14:50:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_state</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>thane.plummer</sys_created_by>
-            <sys_created_on>2020-09-24 14:49:14</sys_created_on>
-            <sys_id>eddded48db631010f5bdb08039961936</sys_id>
+            <sys_created_on>2020-09-29 14:50:26</sys_created_on>
+            <sys_id>230e97a9db635010f5bdb0803996190e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_358839_rrx_order" sys_domain="global" view="Default view">14ab25c4db631010f5bdb0803996196f</sys_ui_section>
             <sys_updated_by>thane.plummer</sys_updated_by>
-            <sys_updated_on>2020-09-24 14:49:14</sys_updated_on>
+            <sys_updated_on>2020-09-29 14:50:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_security</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>thane.plummer</sys_created_by>
-            <sys_created_on>2020-09-24 14:49:14</sys_created_on>
-            <sys_id>61dded48db631010f5bdb08039961937</sys_id>
+            <sys_created_on>2020-09-29 14:50:26</sys_created_on>
+            <sys_id>a70e97a9db635010f5bdb0803996190e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_358839_rrx_order" sys_domain="global" view="Default view">14ab25c4db631010f5bdb0803996196f</sys_ui_section>
             <sys_updated_by>thane.plummer</sys_updated_by>
-            <sys_updated_on>2020-09-24 14:49:14</sys_updated_on>
+            <sys_updated_on>2020-09-29 14:50:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

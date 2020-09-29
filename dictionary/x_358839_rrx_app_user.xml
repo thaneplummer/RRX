@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="App User" max_length="40" name="x_358839_rrx_app_user" type="collection">
+        <element label="Primary account" max_length="32" name="u_primary_account" reference="x_358839_rrx_account" type="reference"/>
+        <element display="true" label="User" max_length="32" name="u_user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="u_primary_account"/>
+        </index>
+        <index name="index2">
+            <element name="u_user"/>
+        </index>
+    </element>
+</database>

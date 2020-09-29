@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>thane.plummer</sys_created_by>
-            <sys_created_on>2020-09-24 15:10:53</sys_created_on>
-            <sys_id>62c2f54cdb631010f5bdb0803996192c</sys_id>
+            <sys_created_on>2020-09-29 15:46:41</sys_created_on>
+            <sys_id>ebeaef65dba35010f5bdb08039961961</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_358839_rrx_transaction" sys_domain="global" view="Default view">c422fd0cdb631010f5bdb080399619bc</sys_ui_section>
             <sys_updated_by>thane.plummer</sys_updated_by>
-            <sys_updated_on>2020-09-24 15:10:53</sys_updated_on>
+            <sys_updated_on>2020-09-29 15:46:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>sys_created_on</element>
             <position>1</position>
             <sys_created_by>thane.plummer</sys_created_by>
-            <sys_created_on>2020-09-24 15:10:53</sys_created_on>
-            <sys_id>e2c2f54cdb631010f5bdb0803996192c</sys_id>
+            <sys_created_on>2020-09-29 15:46:41</sys_created_on>
+            <sys_id>63eaef65dba35010f5bdb08039961962</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_358839_rrx_transaction" sys_domain="global" view="Default view">c422fd0cdb631010f5bdb080399619bc</sys_ui_section>
             <sys_updated_by>thane.plummer</sys_updated_by>
-            <sys_updated_on>2020-09-24 15:10:53</sys_updated_on>
+            <sys_updated_on>2020-09-29 15:46:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>u_quantity</element>
             <position>2</position>
             <sys_created_by>thane.plummer</sys_created_by>
-            <sys_created_on>2020-09-24 15:10:53</sys_created_on>
-            <sys_id>66c2f54cdb631010f5bdb0803996192c</sys_id>
+            <sys_created_on>2020-09-29 15:46:41</sys_created_on>
+            <sys_id>e7eaef65dba35010f5bdb08039961962</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_358839_rrx_transaction" sys_domain="global" view="Default view">c422fd0cdb631010f5bdb080399619bc</sys_ui_section>
             <sys_updated_by>thane.plummer</sys_updated_by>
-            <sys_updated_on>2020-09-24 15:10:53</sys_updated_on>
+            <sys_updated_on>2020-09-29 15:46:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>u_amount</element>
             <position>3</position>
             <sys_created_by>thane.plummer</sys_created_by>
-            <sys_created_on>2020-09-24 15:10:53</sys_created_on>
-            <sys_id>e6c2f54cdb631010f5bdb0803996192c</sys_id>
+            <sys_created_on>2020-09-29 15:46:41</sys_created_on>
+            <sys_id>6feaef65dba35010f5bdb08039961962</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_358839_rrx_transaction" sys_domain="global" view="Default view">c422fd0cdb631010f5bdb080399619bc</sys_ui_section>
             <sys_updated_by>thane.plummer</sys_updated_by>
-            <sys_updated_on>2020-09-24 15:10:53</sys_updated_on>
+            <sys_updated_on>2020-09-29 15:46:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>u_security</element>
             <position>4</position>
             <sys_created_by>thane.plummer</sys_created_by>
-            <sys_created_on>2020-09-24 15:10:53</sys_created_on>
-            <sys_id>6ac2f54cdb631010f5bdb0803996192c</sys_id>
+            <sys_created_on>2020-09-29 15:46:41</sys_created_on>
+            <sys_id>e3eaef65dba35010f5bdb08039961963</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_358839_rrx_transaction" sys_domain="global" view="Default view">c422fd0cdb631010f5bdb080399619bc</sys_ui_section>
             <sys_updated_by>thane.plummer</sys_updated_by>
-            <sys_updated_on>2020-09-24 15:10:53</sys_updated_on>
+            <sys_updated_on>2020-09-29 15:46:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>u_buyer</element>
             <position>5</position>
             <sys_created_by>thane.plummer</sys_created_by>
-            <sys_created_on>2020-09-24 15:10:53</sys_created_on>
-            <sys_id>eac2f54cdb631010f5bdb0803996192c</sys_id>
+            <sys_created_on>2020-09-29 15:46:41</sys_created_on>
+            <sys_id>6beaef65dba35010f5bdb08039961963</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_358839_rrx_transaction" sys_domain="global" view="Default view">c422fd0cdb631010f5bdb080399619bc</sys_ui_section>
             <sys_updated_by>thane.plummer</sys_updated_by>
-            <sys_updated_on>2020-09-24 15:10:53</sys_updated_on>
+            <sys_updated_on>2020-09-29 15:46:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,41 @@
             <element>u_seller</element>
             <position>6</position>
             <sys_created_by>thane.plummer</sys_created_by>
-            <sys_created_on>2020-09-24 15:10:53</sys_created_on>
-            <sys_id>6ec2f54cdb631010f5bdb0803996192c</sys_id>
+            <sys_created_on>2020-09-29 15:46:41</sys_created_on>
+            <sys_id>efeaef65dba35010f5bdb08039961963</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_358839_rrx_transaction" sys_domain="global" view="Default view">c422fd0cdb631010f5bdb080399619bc</sys_ui_section>
             <sys_updated_by>thane.plummer</sys_updated_by>
-            <sys_updated_on>2020-09-24 15:10:53</sys_updated_on>
+            <sys_updated_on>2020-09-29 15:46:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_commission</element>
+            <position>7</position>
+            <sys_created_by>thane.plummer</sys_created_by>
+            <sys_created_on>2020-09-29 15:46:41</sys_created_on>
+            <sys_id>67eaef65dba35010f5bdb08039961964</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_358839_rrx_transaction" sys_domain="global" view="Default view">c422fd0cdb631010f5bdb080399619bc</sys_ui_section>
+            <sys_updated_by>thane.plummer</sys_updated_by>
+            <sys_updated_on>2020-09-29 15:46:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_net_amount</element>
+            <position>8</position>
+            <sys_created_by>thane.plummer</sys_created_by>
+            <sys_created_on>2020-09-29 15:46:41</sys_created_on>
+            <sys_id>ebeaef65dba35010f5bdb08039961964</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_358839_rrx_transaction" sys_domain="global" view="Default view">c422fd0cdb631010f5bdb080399619bc</sys_ui_section>
+            <sys_updated_by>thane.plummer</sys_updated_by>
+            <sys_updated_on>2020-09-29 15:46:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
